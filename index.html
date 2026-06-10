@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MineHostum - Premium Hosting Hizmeti Yakında Açılıyor. Güçlü sunucular, yüksek performans.">
+    <title>MineHostum | Yapım Aşamasında</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Logo -->
+        <header class="brand-section">
+            <img src="logo.png" alt="MineHost.com" class="site-logo">
+        </header>
+
+        <!-- Status Badge -->
+        <div class="status-badge">
+            <span class="status-dot"></span>
+            <span class="status-text">Sistemler Hazırlanıyor</span>
+            <div class="gear-container">
+                <svg class="gear gear-1" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 15.5A3.5 3.5 0 0 1 8.5 12 3.5 3.5 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5 3.5 3.5 0 0 1-3.5 3.5m7.43-2.53c.04-.32.07-.64.07-.97s-.03-.66-.07-1l2.11-1.63c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64L4.57 11c-.04.34-.07.67-.07 1s.03.65.07.97l-2.11 1.66c-.19.15-.25.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1.01c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.58 1.69-.98l2.49 1.01c.22.08.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64L19.43 12.97z"/>
+                </svg>
+                <svg class="gear gear-2" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 15.5A3.5 3.5 0 0 1 8.5 12 3.5 3.5 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5 3.5 3.5 0 0 1-3.5 3.5m7.43-2.53c.04-.32.07-.64.07-.97s-.03-.66-.07-1l2.11-1.63c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64L4.57 11c-.04.34-.07.67-.07 1s.03.65.07.97l-2.11 1.66c-.19.15-.25.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1.01c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.58 1.69-.98l2.49 1.01c.22.08.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64L19.43 12.97z"/>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Construction Message -->
+        <div class="construction-message">
+            <h2 class="construction-title">
+                <span class="bracket">{</span> Yapım Aşamasında <span class="bracket">}</span>
+            </h2>
+            <p class="construction-desc">
+                Sunucularımız kuruluyor, altyapımız güçlendiriliyor.<br>
+                Çok yakında sizlerle buluşuyoruz!
+            </p>
+        </div>
+
+        <!-- Countdown Timer -->
+        <div class="countdown-section">
+            <h3 class="countdown-label">Açılışa Kalan Süre</h3>
+            <div class="countdown-timer" id="countdown">
+                <div class="time-block">
+                    <div class="time-card">
+                        <span class="time-value" id="days">00</span>
+                        <div class="card-shine"></div>
+                    </div>
+                    <span class="time-unit">Gün</span>
+                </div>
+                <div class="time-separator">
+                    <span class="sep-dot"></span>
+                    <span class="sep-dot"></span>
+                </div>
+                <div class="time-block">
+                    <div class="time-card">
+                        <span class="time-value" id="hours">00</span>
+                        <div class="card-shine"></div>
+                    </div>
+                    <span class="time-unit">Saat</span>
+                </div>
+                <div class="time-separator">
+                    <span class="sep-dot"></span>
+                    <span class="sep-dot"></span>
+                </div>
+                <div class="time-block">
+                    <div class="time-card">
+                        <span class="time-value" id="minutes">00</span>
+                        <div class="card-shine"></div>
+                    </div>
+                    <span class="time-unit">Dakika</span>
+                </div>
+                <div class="time-separator">
+                    <span class="sep-dot"></span>
+                    <span class="sep-dot"></span>
+                </div>
+                <div class="time-block">
+                    <div class="time-card">
+                        <span class="time-value" id="seconds">00</span>
+                        <div class="card-shine"></div>
+                    </div>
+                    <span class="time-unit">Saniye</span>
+                </div>
+            </div>
+            <div class="target-date">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="calendar-icon">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="16" y1="2" x2="16" y2="6"/>
+                    <line x1="8" y1="2" x2="8" y2="6"/>
+                    <line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+                <span>Açılış Tarihi: <strong>06 Temmuz 2026</strong></span>
+            </div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-section">
+            <div class="progress-header">
+                <span class="progress-label">Genel İlerleme</span>
+                <span class="progress-percent" id="progress-percent">0%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+                <div class="progress-glow"></div>
+            </div>
+            <div class="progress-tasks">
+                <div class="task-item completed">
+                    <span class="task-check">✓</span>
+                    <span>Sunucu Donanımı Kurulumu</span>
+                </div>
+                <div class="task-item completed">
+                    <span class="task-check">✓</span>
+                    <span>Ağ Altyapısı</span>
+                </div>
+                <div class="task-item active">
+                    <div class="task-spinner"></div>
+                    <span>Panel Entegrasyonu</span>
+                </div>
+                <div class="task-item">
+                    <span class="task-pending">○</span>
+                    <span>Güvenlik Testleri</span>
+                </div>
+                <div class="task-item">
+                    <span class="task-pending">○</span>
+                    <span>Beta Testleri</span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 MineHostum. Tüm hakları saklıdır.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
